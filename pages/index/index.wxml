@@ -1,0 +1,7 @@
+<view class="indexContainer">
+  <image class="indexImg" src='/images/index/cart.jpg'></image>
+  <text class="userName">hello {{ msg }}</text>
+  <view catchtap="handleParent" class="goStudy">
+    <text catchtap="handleChild">开启小程序之旅</text>
+  </view>
+</view>
